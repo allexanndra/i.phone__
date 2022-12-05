@@ -6,18 +6,17 @@
 	text-shadow: 2px 2px;
 	}
 	body {
- 	background-image: url("https://w0.peakpx.com/wallpaper/745/290/HD-wallpaper-apple-iphone-12-light-max-pro.jpg");
+ 	background-image: url("https://w0.peakpx.com/wallpaper/693/854/HD-wallpaper-iphone-xs-iphone-x-xr-xs-max-ios-ios-12-apple.jpg");
 	background-repeat: no-repeat;
  	background-size: 100% 100%;
  	}
+ 	
 	h1 {
-	color: purple;
+	color: white;
 	text-align: center;
 	}
-	h2{
-	text-align: center;
-	}
-	h3{
+	h2{ 
+	color: black;
 	text-align: center;
 	}
 	h4{
@@ -27,10 +26,12 @@
 	text-align: center;
 	}
 	p{
+	color: white;
 	text-align: center;
 	}
 	img{
 	text-align: center;
 	}
+	
 
 	
