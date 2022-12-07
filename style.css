@@ -6,32 +6,36 @@
 	text-shadow: 2px 2px;
 	}
 	body {
- 	background-image: url("https://w0.peakpx.com/wallpaper/693/854/HD-wallpaper-iphone-xs-iphone-x-xr-xs-max-ios-ios-12-apple.jpg");
+ 	background-image: url("https://cutewallpaper.org/21/color-fade-wallpaper/Timetable-Yellow-Fading-To-Black,-Hd-Wallpapers-.jpg");
 	background-repeat: no-repeat;
  	background-size: 100% 100%;
+ 	color: ;
  	}
+
  	
 	h1 {
 	color: white;
 	text-align: center;
+	font-family: 'Times New Roman', serif;
 	}
 	h2{ 
 	color: black;
 	text-align: center;
 	}
-	h4{
-	text-align: center;
-	}
-	h5{
-	text-align: center;
-	}
 	p{
 	color: white;
 	text-align: center;
+	<br>
+	font-family: arial;
+	font-size: 20px;
 	}
 	img{
 	text-align: center;
 	}
-	
-
-	
+	#para1{
+	text-align: center;
+	color: white;
+	}
+	#para2{
+	text-align: center;
+	}
