@@ -5,13 +5,11 @@
 	text-align: center;
 	text-shadow: 2px 2px;
 	}
-	body {
+	body.home {
  	background-image: url("https://cutewallpaper.org/21/color-fade-wallpaper/Timetable-Yellow-Fading-To-Black,-Hd-Wallpapers-.jpg");
 	background-repeat: no-repeat;
- 	background-size: 100% 100%;
- 	color: ;
- 	}
-
+ 	background-size: cover;
+ 	}	
  	
 	h1 {
 	color: white;
