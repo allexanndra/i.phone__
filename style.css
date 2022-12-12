@@ -5,8 +5,8 @@
 	text-align: center;
 	text-shadow: 2px 2px;
 	}
-	body.home {
- 	background-image: url("https://cutewallpaper.org/21/color-fade-wallpaper/Timetable-Yellow-Fading-To-Black,-Hd-Wallpapers-.jpg");
+	body {
+ 	background-image: url("https://i.pinimg.com/originals/86/8b/ec/868beccfc66f33ea419bd2928ff04bf1.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
  	}	
@@ -17,11 +17,14 @@
 	font-family: 'Times New Roman', serif;
 	}
 	h2{ 
-	color: black;
+	color: white;
 	text-align: center;
 	}
+	h4{
+	color: black;
+	}
 	p{
-	color: white;
+	color: turquoise;
 	text-align: center;
 	<br>
 	font-family: arial;
@@ -37,3 +40,7 @@
 	#para2{
 	text-align: center;
 	}
+	font size="5"{
+	color: white
+	}
+	
