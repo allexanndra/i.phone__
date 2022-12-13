@@ -1,16 +1,37 @@
-<!DOCTYPE html>
-	<head>
-		<style>
 	body {
 	text-align: center;
-	text-shadow: 2px 2px;
 	}
 	body {
  	background-image: url("https://i.pinimg.com/originals/86/8b/ec/868beccfc66f33ea419bd2928ff04bf1.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
  	}	
- 	
+
+.nav a.active {
+  background-color: pink;
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+.nav a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  
+
 	h1 {
 	color: white;
 	text-align: center;
@@ -44,3 +65,4 @@
 	color: white
 	}
 	
+
