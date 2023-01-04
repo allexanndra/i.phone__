@@ -5,7 +5,11 @@
  	background-image: url("https://i.pinimg.com/originals/86/8b/ec/868beccfc66f33ea419bd2928ff04bf1.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
- 	}	
+ 	}
+ 	
+ 	body1 {
+ 	background-image: url("https://i.pinimg.com/originals/68/4e/09/684e09aa054fd9ac09a7ee3be830c1ff.jpg");
+ 	}
 
 .nav a.active {
   background-color: pink;
@@ -26,66 +30,21 @@
   font-size: 20px;
 }
 @media screen and (max-width: 500px) {
-  .nav a {
+  .navbar a {
     float: none;
     display: block;
   }
   
-{box-sizing:border-box}
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.show {
-  display: none;
-}
-
-.previous, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.previouss:hover, .next:hover {
-  background-color: pink;
-}
-
-
-.text {
+  .topnav a {
+  float: left;
+  display: block;
   color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
-.text1 {
-  color: white;
-  font-size: 12px;
-  padding: 8px 12px;
-}
-
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: purple;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.active, .dot:hover {
-  background-color:blue;
-}
+  
 
 	h1 {
 	color: white;
@@ -119,5 +78,5 @@
 	font size="5"{
 	color: white
 	}
-	
+
 
