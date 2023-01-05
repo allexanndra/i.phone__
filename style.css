@@ -1,16 +1,57 @@
 	body {
 	text-align: center;
 	}
-	body {
+	body.home{
  	background-image: url("https://i.pinimg.com/originals/86/8b/ec/868beccfc66f33ea419bd2928ff04bf1.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
  	}
  	
- 	body1 {
- 	background-image: url("https://i.pinimg.com/originals/68/4e/09/684e09aa054fd9ac09a7ee3be830c1ff.jpg");
+ 	body.iphone-14-pro-max{
+ 	background-image: url('https://cdn.osxdaily.com/wp-content/uploads/2022/09/iPhone-14-wallpaper-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
  	}
-
+	
+	body.iphone-13{
+ 	background-image: url("https://wallpapercave.com/wp/wp10763844.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+	
+	body.iphone-13-mini{
+ 	background-image: url("https://i.pinimg.com/564x/a2/45/63/a245635af2510dc957116107037e15d3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+	
+	body.iphone-12{
+ 	background-image: url("https://w0.peakpx.com/wallpaper/360/438/HD-wallpaper-iphone-12-apple-iphone-12-mini-iphone-12-pro-iphone-12-pro-max-new-iphone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+	
+	body.iphone-12-mini{
+ 	background-image: url("https://w0.peakpx.com/wallpaper/174/59/HD-wallpaper-iphone-12-apple-iphone-12-mini-iphone-12-pro-iphone-12-pro-max-new-iphone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+	
+	body.iphone-11{
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10b1b751-93b2-43ab-8b00-fb6e8e32c045/dee7vz5-b89c8fa3-ab0a-4160-b9a6-ed743f858b45.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEwYjFiNzUxLTkzYjItNDNhYi04YjAwLWZiNmU4ZTMyYzA0NVwvZGVlN3Z6NS1iODljOGZhMy1hYjBhLTQxNjAtYjlhNi1lZDc0M2Y4NThiNDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bIXcNh2hbgG6vLAP-a4Cgp5eBliMyqrcS-8wbzPzbHc");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+	
+	body.home{
+		font-family:
+		"Helvetica",sans-serif;
+	}
+	
+	.cost{
+		font-family:
+		"Century Gothic",Verdana,sans-serif;
+	}
 .nav a.active {
   background-color: pink;
   color: white;
@@ -29,10 +70,38 @@
   text-decoration: none;
   font-size: 20px;
 }
-@media screen and (max-width: 500px) {
+
+	@media (max-width: 600px) {
+		body {
+			font-size: 16px;
+		}
+		.container {
+			width: 100%;
+		}
+		.image {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	@media (min-width: 601px) and (max-width: 900px) {
+		.container {
+			width: 80%;
+		}
+	}
+
+	@media (min-width: 901px) {
+		.container {
+			width: 60%;
+		}
+	}
+	
   .navbar a {
     float: none;
-    display: block;
+    display: none
+	position:absolute;
+	top: 100%;
+	left:0;
   }
   
   .topnav a {
@@ -45,7 +114,7 @@
   font-size: 17px;
 }
   
-
+  
 	h1 {
 	color: white;
 	text-align: center;
@@ -59,7 +128,7 @@
 	color: black;
 	}
 	p{
-	color: turquoise;
+	color: black;
 	text-align: center;
 	<br>
 	font-family: arial;
