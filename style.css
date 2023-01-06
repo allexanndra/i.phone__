@@ -48,10 +48,24 @@ body.home{
 	"Helvetica",sans-serif;
 }
 	
+
 .cost{
 	font-family:
 	"Century Gothic",Verdana,sans-serif;
 }
+
+
+.image grid{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:10px;
+}
+.image-grid img{
+	width:25%;
+}
+
+
+
 .nav a.active {
 	background-color: pink;
 	color: white;
