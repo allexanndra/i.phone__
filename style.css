@@ -43,10 +43,38 @@ body.iphone-11{
 	background-size: cover;
 }
 	
-body.home{
+.home{
 	font-family:
 	"Helvetica",sans-serif;
 }
+
+
+.iphone-14-pro-max{
+	font-family: "Timed New Roman", serif;
+}
+
+.iphone-13{
+		font-family: "Couriser New", monospace;
+}
+
+.iphone-13-mini{
+	font-family: "Arial",sans-serif;
+}
+
+.iphone-12{
+	font-family: "Georgia", serif;
+}
+
+.iphone-12-mini{
+	font-family: "Garamond", serif;
+}
+
+.iphone-11{
+	font-family:
+}
+	
+
+	
 	
 
 .cost{
