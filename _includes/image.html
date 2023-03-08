@@ -1,13 +1,36 @@
-<div>
-<p id="para1"><a href="iphone-14-pro-max.html"><p><b><font size = "5">Виж повече:</font></a><br></p>
-<p id="para2"><img width="250px" height="auto"src="{{ include.imagename }}" alt="image 1"><br><button><b>Купи</b></button></p>
+<div class="nav">
+<a class="active" href="index.html" class="{ %if page.name != 'index.html'%} pseudo {% endif %} >Home</a>
+<a href="iphone-14-pro-max.html" class={% if page.name != 'iphone-14-pro-max.html'%} pseudo {% endif %} >iPhone 14 Pro Max</a>
+<a href="iphone-13.html">iPhone 13</a>
+<a href="iphone-13-mini.html">iPhone 13 mini</a>
+<a href="iphone-12.html">iPhone 12</a>
+<a href="iphone-12-mini.html">iPhone 12 mini</a>
+<a href="iphone-11.html">iPhone 11</a>
+<div class="search-container">
+<form action="/action_page.php">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit">Search</button>
+</form>
+</div>
 </div>
 
 
-<p id="para1"><a href="iphone-13.html"><font size = "5">Виж повече:</font></a><br></p>
-<p id="para2"><img width="250px" height="auto" src="{{ include.imagename1 }} " alt="image 2"><br><button><b>Купи</b></button></p>
 
 
 
-<p id="para1"><a href="iphone-13-mini.html"><font size = "5">Виж повече:</font></a><br></p>
-<p id="para2"><img width = "250px" height = "auto" src="{{ include.imagename-2 }}" alt="image 3"><br><button><b>Купи</b></button></p>
+
+
+
+<!--<div>
+<p id="para1"><a href="iphone-14-pro-max.html"><p><b><font size = "5">Виж повече:</font></a><br></p>
+<p id="para2"><img width="250px" height="auto"src="{{ include.imagename }}" alt="image 1"><br><button><b>Купи</b></button></p>
+</div>-->
+
+
+<!--<p id="para1"><a href="iphone-13.html"><font size = "5">Виж повече:</font></a><br></p>
+<p id="para2"><img width="250px" height="auto" src="https://p1.akcdn.net/full/859255182.apple-iphone-13-mini-128gb.jpg" alt="image 2"><br><button><b>Купи</b></button></p>-->
+
+
+
+<!--<p id="para1"><a href="iphone-13-mini.html"><font size = "5">Виж повече:</font></a><br></p>
+<p id="para2"><img width = "250px" height = "auto" src="{{ include.imagename-2 }}" alt="image 3"><br><button><b>Купи</b></button></p>-->
